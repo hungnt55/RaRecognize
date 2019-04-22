@@ -1,5 +1,10 @@
 # RaRecognize
 
+## Requirements:
+The code is written and run in Python 3.6.8 on a Ubuntu Linux system and requires the following standard Python packages: **sklearn, imblearn, tqdm, numpy and pandas.**
+
+Our implementation uses **spot** (https://github.com/Amossys-team/SPOT) to learn classification threshold. For convenience purposes, we include spot source code in Python here, however, for more details please refer to the original source.
+
 ## Instructions to prepare data and run RaRecognize:
 
 ### 1. Prepare data: 
