@@ -8,7 +8,7 @@ Our implementation uses **spot** (https://github.com/Amossys-team/SPOT) to learn
 ## Instructions to prepare data and run RaRecognize:
 
 ### 1. Prepare data: 
-This step generates 5 random train/test splits, transform text into numerical vector using TFIDF (1K), PCA (99%) and ICA (same #dimension as PCA) and store them in test_data folder. We include the public NYTimes disaster dataset with news articles of 13 disaster classes in the data folder.
+This step generates 5 random train/test splits, transform text into numerical vector using TFIDF (1K), PCA (99%) and ICA (same #dimension as PCA) and store them in test_data folder. We include the public NYTimes disaster dataset with news articles from 13 different disaster classes in the data folder.
 
 	python setup_experiment_data.py
 
