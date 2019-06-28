@@ -27,3 +27,15 @@ PCA: to run RaRecognize when PCA with 99% variance is preserved and for a random
 ICA: to run RaRecognize when ICA with the same number of features as PCA is used and for a random split, e.g. 0,
 
 	./run_RaRecognize_ica.sh 0
+
+## Note:
+If you use any parts of this code for research purposes, please make sure to cite the following paper. Also note that the code is not allowed for use for purposes other than research.
+```
+@inproceedings{nguyen2019rarecognize,
+    author = {Nguyen, Hung and Wang, Xuejian and Akoglu, Leman},
+    title = {Continual Rare-Class Recognition with Emerging Novel Subclasses},
+    booktitle={Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML-PKDD)},
+    year={2019},
+    organization={Springer}
+}
+```
